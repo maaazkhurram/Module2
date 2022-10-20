@@ -1,17 +1,16 @@
 body{
-	background-color:#0000CD;
-	text-align:center;
+	background-color:#1000CD;
 	color: #fff;
 	clear: left;
 }
 .para1{
-	float:right;
+	float:left;
 }
 .para2{
-	float:right;
+	float:left;
 }
 .para3{
-	float:right;
+	float:left;
 }
 @media(max-width:992px){
 	.heading{
