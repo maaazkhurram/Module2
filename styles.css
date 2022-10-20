@@ -3,6 +3,9 @@ body{
 	color: #fff;
 	clear: left;
 }
+.cotainer{
+	text-align: right;
+}
 .para1{
 	float:left;
 }
