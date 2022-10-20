@@ -1,6 +1,8 @@
+<style>
 body{
 	background-color:blue;
 	text-align:center;
+	color: #fff;
 }
 #para1{
 	float:right;
@@ -13,16 +15,17 @@ body{
 }
 @media(max-width:992px){
 	#heading{
-		widht:50%
+		width:50%
 	}	
 }
 @media(min-width:768px, max-width:991px){
-#heading{
-		widht:50%
+	#heading{
+		width:50%
 	}	
 }
 @media(max-width:767px){
 	#heading{
-		widht:50%
+		width:50%
 	}
 }
+</style>
