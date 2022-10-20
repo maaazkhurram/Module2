@@ -1,31 +1,29 @@
-<style>
 body{
 	background-color:#0000CD;
 	text-align:center;
 	color: #fff;
 }
-#para1{
+.para1{
 	float:right;
 }
-#para2{
+.para2{
 	float:right;
 }
-#para3{
+.para3{
 	float:right;
 }
 @media(max-width:992px){
-	#heading{
+	.heading{
 		width:50%
 	}	
 }
 @media(min-width:768px, max-width:991px){
-	#heading{
+	.heading{
 		width:50%
 	}	
 }
 @media(max-width:767px){
-	#heading{
+	.heading{
 		width:50%
 	}
 }
-</style>
