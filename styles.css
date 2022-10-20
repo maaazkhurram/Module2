@@ -2,6 +2,7 @@ body{
 	background-color:#0000CD;
 	text-align:center;
 	color: #fff;
+	clear: left;
 }
 .para1{
 	float:right;
