@@ -1,32 +1,32 @@
-body{
+	* {
+		box-sizing: border-box;
+	}
+	body{
 	background-color:#1000CD;
 	color: #fff;
-	clear: left;
 }
 .container{
-	text-align: right;
-}
-.para1{
+	display:block;
 	float:left;
 }
-.para2{
-	float:left;
-}
-.para3{
-	float:left;
-}
-@media(max-width:992px){
-	.heading{
-		width:50%
+@media(min-width:992px){
+	.col-lg-1, .col-md-1, .col-sm-1 {
+		float: left;
+		border: 1px solid blue;
+		width: 30%;
 	}	
 }
-@media(min-width:768px, max-width:991px){
-	.heading{
-		width:50%
-	}	
+@media(min-width:768px) and (max-width:991px){
+	.col-lg-1, .col-md-1, .col-sm-1 {
+		float: left;
+		border: 1px solid blue;
+		width: 50%;
+	}
 }
 @media(max-width:767px){
-	.heading{
-		width:50%
+	.col-lg-1, .col-md-1, .col-sm-1 {
+		float: left;
+		border: 1px solid blue;
+		width: 100%;
 	}
 }
